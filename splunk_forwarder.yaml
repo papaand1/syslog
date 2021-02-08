@@ -17,7 +17,7 @@
          mode: 0644
     - name: Import GnuPG Public Key for Splunk package
       rpm_key:
-        key: https://git.dso.ncps.us-cert.gov/dso-infrastructure/syslog/blob/cherif/SplunkPGPKey.pub
+        key: https://git.com/test/syslog/blob/cherif/SplunkPGPKey.pub
         state: present
     - name: Install Splunk Forwarder RPM package on remote servers.
       yum:
